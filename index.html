@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Avada - The #1 Selling Website Builder for WordPress &amp; WooCommerce
+    </title>
+    <link
+      rel="shortcut icon"
+      href="https://avada.com/wp-content/uploads/2021/01/avada-g.svg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="upbar w-100" id="upbar">
+      <details 
+        class=" upbardetails w-100 p-4 mt-2 w-75 d-flex flex-column justify-content-center"
+      >
+        <summary class="upbarsummary fw-bold d-flex justify-content-between">
+          <span class="manusummary">Avada</span>
+        </summary>
+        <ul class="manuul">
+          <li>Features</li>
+          <li>Elements</li>
+          <li>Prebuilt Websites</li>
+          <li>What's New</li>
+        </ul>
+      </details>
+
+      <details
+      class="w-100 p-4 mt-2 w-75 d-flex flex-column justify-content-center"
+    >
+      <summary class="upbarsummary fw-bold d-flex justify-content-between">
+        <span class="manusummary">Avada For</span>
+      </summary>
+      <ul class="manuul">
+        <li>For Begginners</li>
+        <li>For Marketers</li>
+        <li>For Professionals</li>
+      </ul>
+    </details>
+    <span class="w-100 p-4 mt-2 w-75 manusummary">Hosting</span>
+    <span class="w-100 p-4 mt-2 w-75 manusummary">Customization</span>
+
+    <details
+    class="w-100 p-4 mt-2 w-75 d-flex flex-column justify-content-center"
+  >
+    <summary class="upbarsummary fw-bold d-flex justify-content-between">
+      <span class="manusummary">Resources</span>
+    </summary>
+    <ul class="manuul">
+      <li>Help Center</li>
+      <li>Vedio Tutorials</li>
+      <li>Community</li>
+      <li>Blog</li>
+      <li>contact Us</li>
+    </ul>
+  </details>
+    </div>
+
+    <div class="right-menu">
+      <div class="price-tag">
+        <i class="fa-solid fa-briefcase"></i>
+        <span>Prebuilt</span>
+      </div>
+      <div class="price-tag mt-2">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span>Buy Now</spam>
+      </div>
+    </div>
+
+    <div class="msgicon d-flex align-items-center justify-content-center"><i class="fa-solid fa-message"></i></div>
+
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+    <div class="maincontainer">
+      <nav class="navbar pt-4">
+        <img class="logo" src="./images/avada-logo-svg.svg" alt="" srcset="" />
+        <div class="menu">
+          <button>
+            <a href="#home" >Avada</a>
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+          <button>
+            <a href="#about" >Avada For</a>
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+          <button><a href="#services">Hosting</a></button>
+          <button>
+            <a href="#contact" >Customization</a>
+          </button>
+          <button>
+            <a href="#about" >Resources</a>
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+         
+        </div>
+        <div class="menu-btn">
+          <i class="manuopen fa-solid fa-bars" onclick="toggle()" style="display: block;"></i>
+          <i class="manuclose fa-solid fa-xmark" onclick="toggle()" style="display: none;"></i>
+        </div>
+
+        <button type="button" class="avadabtn btn btn-outline-dark fw-bold p-3">
+          <img src="images/star.png" width="20" alt="" srcset="" class="me-1" />
+          My Avada
+        </button>
+      </nav>
+
+      <div class="section1 pt-5 row">
+        <div class="section1left col-sm-6 col-5 pt-4">
+          <div class="topcont">
+            <h1 class="fw-bold topcont1word">The Ultimate</h1>
+            <h1>
+              <div class="console-container">
+                <span id="text" class="fw-bold"></span>
+                <div class="console-underscore" id="console">|</div>
+              </div>
+            </h1>
+            <h1 class="fw-bold">Website Builder</h1>
+          </div>
+          <div class="midcont pt-2">
+            <p class="text-muted">
+              Trusted by beginners, marketers & professionals; Built with
+              usability and performance in mind.
+            </p>
+
+            <button
+              type="button"
+              class="section1btn btn mt-4 btn-dark pt-3 pb-3 fs-5 font-weight-bold"
+            >
+              Start Building
+              <i class="fa-solid fa-arrow-right ms-2"></i>
+            </button>
+          </div>
+
+          <div class="mt-5">
+            <hr />
+          </div>
+          <div class="bottomcont mt-5">
+            <div class="bottom1">
+              <h2 class=""><b>975K+</b></h2>
+              <h6>People Trust Avada</h6>
+            </div>
+            <div class="bottom2">
+              <h2 class=""><b>26K+</b></h2>
+              <h6>Average 5-star Reviews</h6>
+            </div>
+          </div>
+        </div>
+        <div class="section1right col-7 col-sm-6">
+          <img
+            class="section1img"
+            alt="Avada Hero Image"
+            title="Avada Black Friday Sale"
+            src="https://avada.com/wp-content/uploads/2024/11/homepage-hero-bfcw-sale-2024.png"
+          />
+        </div>
+      </div>
+      <div
+        class="section2 d-flex flex-column align-items-center justify-content-center"
+      >
+        <div class="skill row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div
+              class="card card1 p-4 d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="card-body text-dark text-center">
+                <h2 class="card-title"><b>For Begginners</b></h2>
+                <h1 class="card-text"><b>Launch Your First Website</b></h1>
+                <img
+                  width="150rem"
+                  class="mt-3"
+                  src="https://www.machinestoolshop.com/wp-content/uploads/2024/06/Forbasementworkshop.jpg"
+                  alt=""
+                />
+                <div class="card1btn mt-4">
+                  <button>Visual Builder</button>
+                  <button>Documentation</button>
+                  <button>support</button>
+                  <button>Prebuilt Website</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card card2 p-4 d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="card-body text-dark text-center">
+                <h2 class="card-title"><b>For Marketers</b></h2>
+                <h1 class="card-text"><b>Generate Leads and Conversions</b></h1>
+                <img
+                  width="190rem"
+                  class="mt-3"
+                  src="https://www.machinestoolshop.com/wp-content/uploads/2024/07/forjobshop1.jpg"
+                  alt=""
+                  srcset=""
+                />
+                <div class="card2btn mt-4">
+                  <button>Design</button>
+                  <button>SEO</button>
+                  <button>Shop Builder</button>
+                  <button>From Builder</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card card3 p-4 d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="card-body text-dark text-center">
+                <h2 class="card-title"><b>For Professionals</b></h2>
+                <h1 class="card-text">
+                  <b>take your Projects To The Next Level</b>
+                </h1>
+                <img
+                  width="190rem"
+                  class="mt-3"
+                  src="https://www.machinestoolshop.com/wp-content/uploads/2024/07/forheavyduty1.jpg"
+                  alt=""
+                  srcset=""
+                />
+                <div class="card3btn mt-4">
+                  <button>All In One</button>
+                  <button>Patcher</button>
+                  <button>WCAG</button>
+                  <button>Dynamic Data</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="section3 w-100 d-flex flex-column justify-content-center align-items-center"
+      >
+        <div
+          class="section3top d-flex flex-column justify-content-between align-items-center"
+        >
+          <img
+            src="https://avada.com/wp-content/uploads/2021/01/avada-g.svg"
+            width="55"
+            alt=""
+          />
+          <h1 class="text-center mt-4">
+            <b>Design Anything, Build Everything</b>
+          </h1>
+          <p class="mt-4">
+            Design and launch your website fast &amp; no coding knowledge is
+            required.
+          </p>
+          <div class="section3bottom row mt-5">
+            <div class="container col-lg-3">
+              <ul class="list-container">
+                <li class="section3li" onclick="showImage(this, 0)">
+                  <h5>
+                    <i class="avada-elements-live-visual-builder"></i>&nbsp;Live
+                    Visual Builder
+                  </h5>
+                  <div class="section3liimg">
+                    <img
+                      src="https://avada.com/wp-content/uploads/2021/07/live-visual.jpg"
+                      alt="Dynamic Image"
+                      class="dynamic-image"
+                    />
+                  </div>
+                </li>
+                <li class="section3li" onclick="showImage(this, 1)">
+                  <h5>
+                    <i class="icon-avada-layout-builder"></i>&nbsp;Layout
+                    Builder
+                  </h5>
+
+                  <div class="section3liimg"></div>
+                </li>
+                <li class="section3li" onclick="showImage(this, 2)">
+                  <h5>
+                    <i class="icon-avada-header-builder"></i>&nbsp;Header
+                    Builder
+                  </h5>
+                  <div class="section3liimg"></div>
+                </li>
+                <li class="section3li" onclick="showImage(this, 3)">
+                  <h5>
+                    <i class="avada-elements-mega-menu"></i>&nbsp;Mega Menu
+                  </h5>
+                  <div class="section3liimg"></div>
+                </li>
+                <li class="section3li" onclick="showImage(this, 4)">
+                  <h5>
+                    <i class="icon-avada-footer-builder"></i>&nbsp;Footer
+                    Builder
+                  </h5>
+                  <div class="section3liimg"></div>
+                </li>
+                <li class="section3li" onclick="showImage(this, 5)">
+                  <h5>
+                    <i class="icon-avada-form-builder"></i>&nbsp;Form Builder
+                  </h5>
+                  <div class="section3liimg"></div>
+                </li>
+                <li class="section3li" onclick="showImage(this, 6)">
+                  <h5>
+                    <i class="avada-elements-off-canvas"></i>&nbsp;Off Canvas
+                  </h5>
+                  <div class="section3liimg"></div>
+                </li>
+                <li class="section3li" onclick="showImage(this, 7)">
+                  <h5>
+                    <i class="avada-elements-af-checkbox"></i>&nbsp;Setup Wizard
+                  </h5>
+                  <div class="section3liimg"></div>
+                </li>
+              </ul>
+            </div>
+            <div class="section3img col-lg-9" id="section3img">
+              <img
+                src="https://avada.com/wp-content/uploads/2021/07/live-visual.jpg"
+                alt="Dynamic Image"
+                id="section3realimg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section4">
+        <div
+          class="section4top d-flex flex-column justify-content-between align-items-center"
+        >
+          <h1 class="text-center mt-4"><b>All-In-One Website Builder</b></h1>
+          <p class="mt-4">
+            Experience total control over your website creation process.
+          </p>
+        </div>
+        <div class="containerr mt-5">
+          <div class="cardd">
+            <img src="images/section4img1.jpg" alt="Placeholder Image" />
+            <h3>109 Prebuilt Websites</h3>
+            <p>
+              Prebuilt websites are designed to save you time. Import with a few
+              clicks & customize it to suit your requirements.
+            </p>
+          </div>
+          <div class="cardd">
+            <img src="images/section4img2.webp" alt="Placeholder Image" />
+            <h3>120+ design elements</h3>
+            <p>
+              Packed with options, they are highly flexible for any design & for
+              any purpose. The only limit is your imagination.
+            </p>
+          </div>
+          <div class="cardd">
+            <img src="images/section4img3.jpg" alt="Placeholder Image" />
+            <h3>Built For Performance</h3>
+            <p>
+              Experience total control of your website’s features that will
+              empower you to make superior performance-related decisions.
+            </p>
+          </div>
+          <div class="cardd">
+            <img src="images/section4img4.webp" alt="Placeholder Image" />
+            <h3>Mobile Friendly</h3>
+            <p>
+              Avada is 100% fluid & responsive across all device types, from
+              mobile to desktop & tablets, with no compromise.
+            </p>
+          </div>
+          <div class="cardd">
+            <img src="images/section4img5.webp" alt="Placeholder Image" />
+            <h3>Dynamic content</h3>
+            <p>
+              Build unique pages & post layouts for your website by harnessing
+              the power of Avada’s dynamic content functionality.
+            </p>
+          </div>
+          <div class="cardd">
+            <img src="images/section4img6.jpg" alt="Placeholder Image" />
+            <h3>Online Store Builder</h3>
+            <p>
+              Avada is integrated with WooCommerce, allowing you to build
+              successful online stores to sell anything online.
+            </p>
+          </div>
+        </div>
+        <div class="section4btn d-flex justify-content-center mt-5">
+          <button
+            type="button"
+            class="section1btn btn font-weight-bold d-flex align-items-center"
+          >
+            Discover More
+            <i class="fa-solid fa-arrow-right ms-2"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+      <div
+        class="section5 d-flex flex-column align-items-center justify-content-between mt-5"
+      >
+       <div class="section5top w-100">
+        <div
+          class="mt-5"
+          
+        >
+          <h1 class="text-center mt-4">
+            <b>997,154 Website Owners <br />Trust Avada</b>
+          </h1>
+          <p class="mt-4">
+            The #1 selling Website Builder on Themeforest for 11+ years.
+          </p>
+        </div>
+      </div>
+      
+        <div class="section5container mt-5">
+          <div class="section5card mt-3">
+            <img
+              src="https://avada.com/wp-content/uploads/2021/06/world-class-support.png"
+              width="72"
+              alt="Placeholder Image"
+            />
+            <h3>World-Class Support</h3>
+            <p>
+              We build long-term professional relationships with our customers
+              that you can rely on & trust.
+            </p>
+          </div>
+          <div class="section5card mt-3">
+            <img
+              src="https://avada.com/wp-content/uploads/2021/06/documentation.png"
+              width="72"
+              alt="Placeholder Image"
+            />
+            <h3>Documentation & Tutorials</h3>
+            <p>
+              Over 550 help files & 200 tutorial videos will make building
+              websites with Avada even easier.
+            </p>
+          </div>
+          <div class="section5card mt-3">
+            <img
+              src="https://avada.com/wp-content/uploads/2021/06/built-in-house.png"
+              width="160"
+              alt="Placeholder Image"
+            />
+            <h3>100% Built In-House</h3>
+            <p>
+              Avada is not reliant on 3rd party tools to deliver a reliable &
+              stable website building experience.
+            </p>
+          </div>
+          <div class="section5card mt-3">
+            <img
+              src="https://avada.com/wp-content/uploads/2021/06/free-updates.png"
+              width="100"
+              alt="Placeholder Image"
+            />
+            <h3>Free Lifetime Updates</h3>
+            <p>
+              Your website will receive free & regular updates, compatible with
+              industry standards & trends, for life.
+            </p>
+          </div>
+        </div>
+      </div>
+   
+      <div class="section6 row g-0 mt-5">
+        <div class="section6left">
+          <img
+            src="https://avada.com/wp-content/uploads/2021/08/testimonial.jpg"
+            alt=""
+          />
+        </div>
+        <div class="section6right d-flex justify-content-center">
+          <div class="section6righttop">
+            <p>
+              “We choose to specialise in Avada because it is both functional and
+              practical, and our clients simply love it! It has stood the test of
+              time and continues to evolve – an excellent solution for our talented
+              design team, who continue to push the boundaries.”
+            </p>
+          </div>
+      
+          <img
+            src="https://avada.com/wp-content/uploads/2021/08/separator-2.png"
+            alt=""
+            class="mt-5"
+          />
+          <div class="section6rightbottom mt-5">
+            <h4 class="d-flex">
+              <img
+                src="https://avada.com/wp-content/uploads/2021/08/squarebird-logo.png"
+                alt=""
+                class="me-3"
+              />
+              squarebird
+            </h4>
+            <p>https://www.squarebird.co.uk</p>
+          </div>
+        </div>
+      </div>
+      
+    <div class="section7 d-flex w-100 flex-column align-items-center mt-xl-5 mt-lg-5 mt-md-5 mt-sm-5 mt-2">
+      <div class=" d-flex align-items-center flex-column row col-12 mt-xl-5 mt-lg-5 mt-md-4 mt-sm-4 mt-2">
+        <div class="section7main col-xl-8 col-lg-9 col-md-9 col-sm-10 col-xs-9 mt-xl-5 mt-lg-4 mt-md-4 mt-sm-3 mt-2">
+          <div class="w-100 text-center">
+            <h1>Frequently Asked Questions</h1>
+          </div>
+
+          <div class="section7que w-100 mt-5 d-flex flex-column">
+            <details class="w-100 section7details pb-3">
+              <summary class="w-100 d-flex justify-content-between ">
+                 <div class="section7quetitle">What is included with my purchase of Avada?</div> 
+              </summary>
+              <p class="mt-3">With your purchase of Avada, you will receive:</p>
+              <ul class="section7quelist">
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  6 months of free professional support.
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  8 bundled premium plugins.
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  109 prebuilt websites, with new sites released regularly.
+                </li> 
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  574 prebuilt content items for every occassion, downloadable
+                  with just a click.
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  120+ Design and Layout Elements.
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  550+ detailed help files, continually updated to ensure
+                  everything is current.
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  200+ video tutorials, with new videos, added regularly.
+                </li> 
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  Free, consistent, and stable updates to ensure compatibility
+                  with industry standards &amp; trends.
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  Avada works with popular 3rd party plugins like Yoast SEO,
+                  WooCommerce, The Events Calendar, HubSpot, WPML, and more.
+                </li>
+              </ul>
+            </details>
+            <details class="w-100 section7details pb-3 pt-3">
+              <summary class="w-100 d-flex justify-content-between ">
+                  <div class="section7quetitle">Are there any recurring fees?</div>
+              </summary>
+              <p class="mt-3">No, there are no recurring license fees to use Avada. It is a one-time purchase that provides you with lifetime updates at no extra cost and is valid for life. You can choose to purchase a support extension after the initial 6 months of support has expired. However, this is entirely optional.</p>
+              
+            </details>
+            <details class="w-100 section7details pb-3 pt-3">
+              <summary class="w-100 d-flex justify-content-between ">
+                <div class="section7quetitle">Where can I get support?</div>
+              </summary>
+              <p class="mt-3">Hands-on support with our professional team of support experts is accessible 24/7, and that includes an extensive library of detailed <u>documention</u> and <u>video tutorial.</u> </p>
+              <ul class="section7quelist">
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-chevron-right truetick me-3"></i>
+
+                  <span>To access support you will need to register a support account by following these &nbsp;<u>Steps.</u></span>
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-chevron-right truetick me-3"></i>
+
+                 <span> Once your support account is set up, you can submit support tickets &nbsp;<u>here</u></span>
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-chevron-right truetick me-3"></i>
+
+                  <span>Learn how to navigate your support account Dashboard &nbsp;<u>here.</u></span>
+                </li> 
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-chevron-right truetick me-3"></i>
+
+                 <span> Check to see if you are eligible for &nbsp;<u>Grandfathered support.</u></span>
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-chevron-right truetick me-3"></i>
+                  For a detailed overview of our support policy please go &nbsp;<u>here. </u>
+                  <span></span>
+
+                </li>
+               
+              </ul>
+            </details>
+            <details class="w-100 section7details pb-3 pt-3">
+              <summary class="w-100 d-flex justify-content-between">
+                <div class="section7quetitle">Are the prebuilt websites fully customizable?</div>
+              </summary>
+              <p class="mt-3">Yes, each prebuilt website is 100% customizable. All prebuilt websites are professionally designed by our in-house design team, created to showcase Avada’s capabilities and save you time.</p>
+              <p class="mt-3">Once you import a prebuilt website, you can entirely customize the content and layouts to your liking. You can add your own imagery, change text, change colors or completely change any of the layouts using the &nbsp;<u>Avada Website Builder </u></p>
+              
+            </details>
+            <details class="w-100 section7details pb-3 pt-3">
+              <summary class="w-100 d-flex justify-content-between ">
+               <div class="section7quetitle"> Why should I trust Avada?</div>
+              </summary>
+              <p class="mt-3">Trust is a quality that we take great care to foster and maintain by building long-term professional relationships that our customers can rely on. Here are some important qualifiers:</p>
+              <ul class="section7quelist">
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  We love what we do and who we do it for. Your future is our focus.
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  Avada is 100% developed and maintained in-house.
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  Free, consistent, and stable updates to ensure compatibility with industry standards & trends.
+                </li> 
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  550+ detailed help files, continually updated to ensure everything is current.
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  200+ video tutorials, with new videos, added regularly.                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  Avada works with popular 3rd party plugins like Yoast SEO, WooCommerce, The Events Calendar, HubSpot, WPML, and more.                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  Years of evolving Avada by listening to our customer’s feedback is what helps shape Avada’s roadmap for the future 
+                 </li> 
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  A vast, passionate community of Avada customers drives a well-established Facebook group and a community forum.
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fa-solid fa-check truetick me-3"></i>
+
+                  Join 997,432  passionate Avada customers and build your future.
+                </li>
+              </ul>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section8 row g-0 col-12 d-flex justify-content-center align-items-center">
+      <div class="section8green row col-11 col-sm-10 col-md-11 pt-lg-5 pb-lg-5 ps-lg-5">
+        <div class="row col-12 pt-lg-5 pb-lg-5 ps-lg-5 ps-md-5">
+        <div class="section8greenleft col-lg-6 d-flex flex-column ps-lg-0 ms-lg-0">
+              <h2 class="">Build successful Website With Avada</h2>
+              <p class="mt-2 ">Whether you are a beginner, marketer, or professional, Avada has the tools & resources you can rely on to succeed.</p>
+              <button
+              type="button"
+              class="section8btn  btn  font-weight-bold mt-sm-4"
+            >
+              <b>Buy Avada For $69</b>
+              <i class="fa-solid fa-arrow-right ms-2"></i>
+            </button>
+        </div>
+  
+        <div class="section8greenright col-lg-6 d-flex justify-content-center align-items-center">
+          <img decoding="async" alt="Avada Website Builder" src="https://avada.com/wp-content/uploads/2021/07/footer-cta.png"   >
+        </div>
+      </div>
+      </div>
+      <div class="footer col-12 d-flex justify-content-center"> 
+        <div class="col-11 fottormain">
+           <div class=" row col-12">
+                <div class="footertopdiv1 col-lg-3 col-sm-4 "> <img class="logo" src="https://avada.com/wp-content/uploads/2021/11/avada-logo-light-svg.svg" alt="" srcset="" /></div>
+                <div class="footertopdiv1 col-lg-3 col-sm-4">
+                  <ul class="fotterul">
+                    <li><span>Help Center</span></li>
+                    <li><span>Avada Studio</span></li>
+                    <li><span>prebuilt Websites</span></li>
+                    <li><span>Reviews</span></li>
+                    <li><span>Submit A Ticket</span></li>
+
+                  </ul>
+                  
+                </div>
+                <div class="footertopdiv1 col-lg-3 col-sm-4">
+                  <ul class="fotterul">
+                    <li><span>About Us</span></li>
+                    <li><span>Careers</span></li>
+                    <li><span>Support policy</span></li>
+                    <li><span>Terms And Conditions</span></li>
+                    <li><span>Privacy policy</span></li>
+
+                  </ul>
+                </div>
+                <div class="footernewslatter col-lg-3  col-sm-12">
+                  <p class="">Sign up to our newsletter and get all of the latest news and updates.</p>
+                  <div class="d-flex">
+                         <input class=""  type="email" name="" id="" placeholder="Your email">
+                         <button type="button" class="btn " >Subscribe</button>
+                  </div>
+                </div>
+           </div>
+           <div class="fotterline col-12">
+
+           </div>
+           <div class="fotterbottom row col-12 d-flex justify-content-between">
+                <div class="fottercopyright col-lg-9 col-sm-12 d-flex align-items-center">
+                 <p class="d-flex align-items-center"> <span> © Copyright 2012 - 2024 | Avada Website Builder by &nbsp;<u>ThemeFusion</u>&nbsp;| All Rights Reserved | Powerd by &nbsp;<u>WordPress</u> </span></p>
+                </div>
+                 <div class="icondiv col-lg-3 col-sm-12 d-flex ">
+                    <div class="networkicon d-flex justify-content-center align-items-center me-2"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="networkicon d-flex justify-content-center align-items-center me-2"><i class="fa-brands fa-x-twitter"></i></div>
+                    <div class="networkicon d-flex justify-content-center align-items-center me-2"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="networkicon d-flex justify-content-center align-items-center me-2"><i class="fa-brands fa-youtube"></i></div>
+
+                 </div>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="home.js"></script>
+  </body>
+</html>
